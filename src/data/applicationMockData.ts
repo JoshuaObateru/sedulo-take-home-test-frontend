@@ -5,7 +5,7 @@ export const applicationMockData: Application[] = [
     id: 1,
     imageUrl:
       "https://images.pexels.com/photos/21342662/pexels-photo-21342662/free-photo-of-electronic-office-devices-smartphone-empty-screen-mockup.jpeg",
-    title: "App Name",
+    title: "Fruity Loops",
     backgroundImage:
       "https://images.pexels.com/photos/21342662/pexels-photo-21342662/free-photo-of-electronic-office-devices-smartphone-empty-screen-mockup.jpeg",
     description:
@@ -29,7 +29,7 @@ export const applicationMockData: Application[] = [
     id: 3,
     imageUrl:
       "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
-    title: "App Name 3",
+    title: "Happiness App",
     backgroundImage:
       "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
     description:
@@ -41,7 +41,7 @@ export const applicationMockData: Application[] = [
     id: 4,
     imageUrl:
       "https://images.pexels.com/photos/21342662/pexels-photo-21342662/free-photo-of-electronic-office-devices-smartphone-empty-screen-mockup.jpeg",
-    title: "App Name",
+    title: "EMS",
     backgroundImage:
       "https://images.pexels.com/photos/21342662/pexels-photo-21342662/free-photo-of-electronic-office-devices-smartphone-empty-screen-mockup.jpeg",
     description:
@@ -53,7 +53,7 @@ export const applicationMockData: Application[] = [
     id: 5,
     imageUrl:
       "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg",
-    title: "App Name 2",
+    title: "Leave Manager",
     backgroundImage:
       "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg",
     description:
@@ -65,7 +65,7 @@ export const applicationMockData: Application[] = [
     id: 6,
     imageUrl:
       "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
-    title: "App Name 3",
+    title: "Project Scheduler",
     backgroundImage:
       "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
     description:
@@ -77,7 +77,7 @@ export const applicationMockData: Application[] = [
     id: 7,
     imageUrl:
       "https://images.pexels.com/photos/21342662/pexels-photo-21342662/free-photo-of-electronic-office-devices-smartphone-empty-screen-mockup.jpeg",
-    title: "App Name",
+    title: "Contract Generater",
     backgroundImage:
       "https://images.pexels.com/photos/21342662/pexels-photo-21342662/free-photo-of-electronic-office-devices-smartphone-empty-screen-mockup.jpeg",
     description:
@@ -89,7 +89,7 @@ export const applicationMockData: Application[] = [
     id: 8,
     imageUrl:
       "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg",
-    title: "App Name 2",
+    title: "Attendance",
     backgroundImage:
       "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg",
     description:
@@ -101,7 +101,7 @@ export const applicationMockData: Application[] = [
     id: 9,
     imageUrl:
       "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
-    title: "App Name 3",
+    title: "Leave App",
     backgroundImage:
       "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
     description:
