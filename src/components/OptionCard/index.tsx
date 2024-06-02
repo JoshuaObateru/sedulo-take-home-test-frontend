@@ -12,7 +12,7 @@ interface OptionCardProps {
 export const OptionCard = ({ application, onOptionClick, isSelected }: OptionCardProps) => {
     return (
         <>
-            <div className={`relative lg:mx-4 mx-1 hover:h-[8rem]  lg:hover:h-[10rem] hover:w-[16rem] rounded-lg shadow-lg shadow-[rgba(0,0,0,0.5)] ${isSelected ? 'lg:h-[10rem] h-[8rem] min-w-[11rem] lg:min-w-[15rem] border border-white' : 'min-w-[10rem] lg:min-w-[14rem] lg:h-[8rem] h-[6rem]'}`} onClick={() => onOptionClick(application)}>
+            <div className={`relative lg:mx-4 mx-1 hover:h-[8rem] cursor-pointer  lg:hover:h-[10rem] hover:w-[16rem] rounded-lg shadow-lg shadow-[rgba(0,0,0,0.5)] ${isSelected ? 'lg:h-[10rem] h-[8rem] min-w-[11rem] lg:min-w-[15rem] border border-white' : 'min-w-[10rem] lg:min-w-[14rem] lg:h-[8rem] h-[6rem]'}`} onClick={() => onOptionClick(application)}>
                 <Image
 
                     src={application.imageUrl}
