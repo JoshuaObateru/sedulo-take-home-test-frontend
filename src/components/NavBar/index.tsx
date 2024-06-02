@@ -41,13 +41,13 @@ export function NavBar() {
                 <div className="flex flex-col font-medium text-[1.6rem] items-center  text-center h-full justify-center">
                     {/* <ul> */}
 
-                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 1') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="home">Menu 1</Link>
+                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 1') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="#">Menu 1</Link>
 
-                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 2') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="trends">Menu 2</Link>
+                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 2') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="#">Menu 2</Link>
 
-                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 3') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="solution">Menu 3</Link>
+                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 3') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="#">Menu 3</Link>
 
-                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 4') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="references">Menu 4</Link>
+                    <Link onClick={() => { toggleNav() }} className={` ${pathname.includes('Menu 4') ? 'text-light border-b border-primary_2' : 'text-grey_1'}`} href="#">Menu 4</Link>
 
                     {/* </ul> */}
                 </div>
