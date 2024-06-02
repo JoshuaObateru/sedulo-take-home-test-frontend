@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "carousel-bg": "rgba(255, 30, 30, 0.6)",
+        "main-bg": "rgba(255, 30, 30, 1)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      scrollbar: {
+        thin: "4px",
       },
     },
   },

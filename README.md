@@ -1,6 +1,60 @@
+# Sedulo Take Home Test
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Creation and instalation
+
+#### create project
+
+```zsh
+npx create-next-app@latest my-project --typescript --eslint
+cd my-project
+```
+
+Note: This asks you some setup questions and if you want to include tailwind. If it doesn't ask you to, install and initialise tailwind by running the commands below
+
+```zsh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+- configure template paths
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+- add Tailwind directives to css
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+#### initialise storybook in project
+
+```zsh
+npx storybook@latest init
+```
+
+## Clone Project
+
+## Run Project
 
 First, run the development server:
 
