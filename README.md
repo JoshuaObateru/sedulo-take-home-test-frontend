@@ -52,27 +52,30 @@ module.exports = {
 npx storybook@latest init
 ```
 
-## Clone Project
+<!-- ## Clone Project -->
 
-## Run Project
+## Run Project Locally
 
 First, run the development server:
 
 ```bash
+git clone https://github.com/JoshuaObateru/sedulo-take-home-test-frontend.git
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run storybook
+# # or
+# yarn dev
+# # or
+# pnpm dev
+# # or
+# bun dev
 ```
 
-### Run Storybook
+<!-- ### Run Storybook
 
 ```zsh
 npm run storybook
-```
+``` -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
