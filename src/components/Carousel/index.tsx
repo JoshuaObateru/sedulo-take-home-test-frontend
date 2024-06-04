@@ -32,36 +32,3 @@ export const Carousel = () => {
     )
 }
 
-// import React, { useState } from 'react';
-// import BackgroundImage from '../components/BackgroundImage';
-// import OptionCarousel from '../components/OptionCarousel';
-
-// const images = [
-//   '/background1.jpg',
-//   '/background2.jpg',
-//   '/background3.jpg',
-//   '/background4.jpg',
-// ];
-
-// const options = ['Option 1', 'Option 2', 'Option 3', 'Option 4', 'Option 5'];
-
-// const Home: React.FC = () => {
-//   const [backgroundImageIndex, setBackgroundImageIndex] = useState<number>(0);
-
-//   const handleOptionClick = (option: string) => {
-//     const newIndex = options.indexOf(option);
-//     setBackgroundImageIndex(newIndex);
-//   };
-
-//   return (
-//     <div className="relative">
-//       <BackgroundImage images={images} />
-//       <div className="absolute inset-x-0 bottom-0 p-4">
-//         <OptionCarousel options={options} onOptionClick={handleOptionClick} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Home;
-

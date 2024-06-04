@@ -28,7 +28,7 @@ export const CarouselBackground = ({ applications, currentImageIndex }: Carousel
                             objectFit="cover"
                         />
                         <div className='absolute inset-0 w-full h-full flex flex-col justify-center lg:px-16 px-8 bg-carousel-bg mb-8'>
-                            <div className='flex flex-col lg:w-[50%] h-full lg:pt-32 pt-24'>
+                            <div className='flex flex-col lg:w-[50%] h-full lg:pt-32 pt-24 '>
                                 <FaUntappd className='text-6xl lg:text-8xl' />
                                 <h1 className='text-2xl lg:text-4xl font-bold'>{application.title}</h1>
                                 <p className='text-sm line-clamp-3 lg:text-lg my-4 lg:my-8'>{application.description}</p>

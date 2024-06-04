@@ -12,7 +12,7 @@ export const ExpandedOptions = () => {
                     <input type="text" placeholder='Search for application' value={searchText} onChange={(e: React.ChangeEvent<HTMLInputElement>) => { setSearchText(e.target.value) }} className='py-2 pl-2 text-sm lg:text-lg lg:w-[25%] w-[70%] text-white bg-transparent placeholder-slate-200 border border-white rounded-md active:outline-none outline-none' />
                 </div>
                 {/* Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 lg:gap-20 gap-4 w-full place-content-between justify-items-center ">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 lg:gap-20 gap-4 w-full place-content-between justify-items-center ">
                     {applicationMockData.map((application, index) => (application.title.toLocaleLowerCase().includes(searchText.toLocaleLowerCase()) && <OptionCard application={application} isSelected={false} onOptionClick={() => { }} key={index + application.title} />))}
 
                 </div>
